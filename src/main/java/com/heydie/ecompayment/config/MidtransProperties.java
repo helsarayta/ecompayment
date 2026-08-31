@@ -16,7 +16,7 @@ public record MidtransProperties(
         @DefaultValue("https://app.sandbox.midtrans.com")
         String snapBaseUrl,
 
-        @DefaultValue("https://app.sandbox.midtrans.com")
+        @DefaultValue("https://api.sandbox.midtrans.com")
         String apiBaseUrl,
 
         @DefaultValue("5s")
